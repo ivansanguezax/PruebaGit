@@ -1,12 +1,11 @@
 body{
     text-align: center;
-    color: red;
     background-color: #f2f2f2;
 }
 .container{
     padding: 10px 30px;
     margin: 20px 10px;
-    background-color: black;
+    background-color: white;
     color: #f2f2f2;
     text-align: center;
     border-radius: 10px;
@@ -16,16 +15,22 @@ body{
 .container .titulo{
     text-transform: uppercase;
     font-size: 10px;
+    color: black;
 }
 .container .description{
-    color: aqua;
+    color: black;
 }
-#cabecera{
+.icono{
+display: flex;
+justify-content: center;
+}
+
+.cabecera{
     margin: 0 40px;
     padding: 10px;
     font-size: 40px;
-    background-color: red;
-    color: black;
+    background-color: #DE4F3C;
+    color: #f2f2f2;
     border-radius: 10px;
     text-align:center;
 }
