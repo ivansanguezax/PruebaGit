@@ -30,3 +30,13 @@ body{
     text-align:center;
 }
 
+.footer{
+    background-color: #334752;
+    color: #f2f2f2;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    border-top: 10px solid #DE4F3C;
+}
+
